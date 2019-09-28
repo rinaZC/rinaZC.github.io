@@ -3,7 +3,7 @@ var _CONTENT = [
     " Rina.",
     " studying CS at University of Michigan.",
     " passionate about coding :)",
-    " seeking for Summer 2020 internship.",
+    " seeking Summer 2020 internships.",
 
 
 ];
