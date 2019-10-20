@@ -10,22 +10,26 @@ body {
 
   .head {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-bottom: 30px;
     
   }
 
   
   header{
+    display: inline;
     background: transparent;
     text-align: left;
-    width: 60%;
+    
   }
 
   #home {
     padding:15px;
     text-align:center;
 
+  }
+  nav {
+    width: 30%
   }
   nav ul{
     
@@ -38,6 +42,8 @@ body {
     -o-transition: max-height 0.4s;
     transition: max-height 0.4s;
   }
+
+  
   nav ul li{
     display: inline-block;
     padding: 15px;
