@@ -15,15 +15,11 @@ body {
     
   }
 
-  /* nav {
-    padding: 10px 15px 20px;
-    background-color:transparent;
-    
-      
-  } */
+  
   header{
     background: transparent;
     text-align: left;
+    width: 60%;
   }
 
   #home {
@@ -71,7 +67,7 @@ body {
     float: right;
     margin: .5em 0;
   }
-  @media screen and (max-width: 620px){
+  @media screen and (max-width: 780px){
     nav ul{
       max-height: 0px;
     }
@@ -118,9 +114,9 @@ body {
       color:#d6f8b8 ;
       /* color:#daf1f9; */
       margin-left: 12px;
-      font-size: 40px;
+      font-size: 35px;
       font-family: 'Alegreya Bold';
-      letter-spacing: 2px;
+      letter-spacing: 0.5px;
       
   }
 
@@ -166,6 +162,14 @@ body {
     text-align: left;
     margin-bottom: 50px;
     display: block;
+    
+  }
+
+  .blocka {
+    text-align: left;
+    margin-bottom: 0px;
+    display: block;
+    
   }
 
   .test {
@@ -197,7 +201,7 @@ body {
 
 #textx{
   
-  display: inline-block;
+  display: inline;
 	vertical-align: middle;
 	color: #fff;
       font-family: monospace;
@@ -208,18 +212,20 @@ body {
 }
 
 #hide {
-  color:transparent
+  color:transparent;
+  font-size: 23px;
 }
 
 #text {
   
-	display: inline-block;
+	display: inline;
 	vertical-align: middle;
 	color: #fff;
       font-family: monospace;
       font-size: 23px;
   
     letter-spacing: 1px;
+    
 }
 
 #cursor {
