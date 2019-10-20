@@ -1,9 +1,15 @@
 // List of sentences
 var _CONTENT = [
-    " Rina.",
-    " studying CS at University of Michigan.",
-    " passionate about coding :)",
-    " seeking Summer 2020 internships.",
+    " coding :)",
+    " playing tennis.",
+    " watching Novak Djokovic play tennis.",
+    " coffee, or Americano to be specific.",
+    " running and sweating a lot afterwards.",
+    " taking photos with my camera.",
+    " playing piano, especially Chopin's music.",
+    " eating good foods!!",
+    " exploring the world through traveling."
+
 
 
 ];
@@ -64,10 +70,17 @@ function Delete() {
         // Start to display the next sentence after some time
         setTimeout(function () {
             _CURSOR.style.display = 'inline-block';
-            _INTERVAL_VAL = setInterval(Type, 100);
-        }, 200);
+            _INTERVAL_VAL = setInterval(Type, 50);
+        }, 100);
     }
 }
 
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
+
+
+//responsive nav bar
+$('.handle').on('click', function () {
+    $('nav ul').toggleClass('showing');
+});
+

@@ -1,20 +1,112 @@
 body {
     background: linear-gradient(hsl(10,50%,75%),hsl(30,70%,80%));
-    height: 100vh;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    min-width: 100%;
+    min-height:100%;
     margin: 0;
+    padding: 20px 20px;
   }
 
-  nav {
-    padding: 10px;
+  .head {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+  }
+
+  /* nav {
+    padding: 10px 15px 20px;
     background-color:transparent;
     
       
+  } */
+  header{
+    background: transparent;
+    text-align: left;
   }
 
-  a{
+  #home {
+    padding:15px;
+    text-align:center;
+
+  }
+  nav ul{
+    
+  
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+  }
+  nav ul li{
+    display: inline-block;
+    padding: 15px;
+  }
+  nav ul li:hover{
+    /* background-color: #daf1f9 */
+  }
+  
+  .handle {
+   
+    background-color:transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: none;
+  }
+  p.menu{
+    display: inline-block;
+  }
+  .menu_icon div {
+    background-color: white;
+    border-radius: 2px;
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+  }
+  .menu_icon{
+    float: right;
+    margin: .5em 0;
+  }
+  @media screen and (max-width: 620px){
+    nav ul{
+      max-height: 0px;
+    }
+    nav ul li{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15px;
+    }
+    .showing{
+      max-height: 20em; 
+    }
+    .handle{
+      display: block;
+    }
+    header h1{
+      font-size: 3em;
+    }
+  }
+  
+
+  .linka{
       color: #d2f3e0;
       font-size: 15px;
       
+
+  }
+
+  #intextLink {
+    /* color: #daf1f9; */
+    color:#ffffc5 ;
+      font-family: monospace;
+      font-size: 23px;
+      font-weight: 200;
+  
+    letter-spacing: 1px;
 
   }
 
@@ -22,44 +114,119 @@ body {
 
 
   .title {
+    /* color:#b0deff; */
       color:#d6f8b8 ;
-      margin-left: 30px;
+      /* color:#daf1f9; */
+      margin-left: 12px;
       font-size: 40px;
       font-family: 'Alegreya Bold';
+      letter-spacing: 2px;
+      
+  }
+
+  .container {
+    
+    display:flex;
+    
+    justify-content: center;
+
+    position:relative;
+    
+
+  }
+
+  .box {
+    padding-bottom:50px;
+  }
+
+  .bottom {
+    text-align: center;
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:20px;
+   margin-bottom: 25px;
+   font-size: 2.5rem;
+   
+  }
+  
+
+  #textmain{
+    
+    
+    color: #fff;
+      font-family: monospace;
+      font-size: 23px;
+  
+    letter-spacing: 1px;
+  
+  }
+
+  .block {
+    text-align: left;
+    margin-bottom: 50px;
+    display: block;
+  }
+
+  .test {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+    
+    
+
+  }
+
+  .testText {
+    text-align: left;
+    width:60%
+
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+
   }
 
 /* code below are for typewritter effect */
   #container {
-	text-align: center;
+    text-align: left;
 }
 
 #textx{
-    
+  
+  display: inline-block;
 	vertical-align: middle;
 	color: #fff;
-    font-family: monospace;
-    font-size: 28px;
-
-	letter-spacing: 2px;
+      font-family: monospace;
+      font-size: 23px;
+  
+    letter-spacing: 1px;
 
 }
 
+#hide {
+  color:transparent
+}
+
 #text {
-    
+  
 	display: inline-block;
 	vertical-align: middle;
 	color: #fff;
-    font-family: monospace;
-    font-size: 28px;
-
-	letter-spacing: 2px;
+      font-family: monospace;
+      font-size: 23px;
+  
+    letter-spacing: 1px;
 }
 
 #cursor {
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 50px;
+	height: 30px;
 	background-color: orange;
 	animation: blink .75s step-end infinite;
 }
@@ -73,3 +240,11 @@ body {
 	}
 }
 /* code above is for typewritter and deleting effect */
+
+i {
+  
+  padding:25px 25px;
+  color:rgb(126, 123, 123)
+  
+
+}
