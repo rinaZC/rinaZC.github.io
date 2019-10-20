@@ -29,7 +29,7 @@ body {
 
   }
   nav {
-    width: 30%
+    width: 40%
   }
   nav ul{
     
@@ -76,11 +76,14 @@ body {
   @media screen and (max-width: 780px){
     nav ul{
       max-height: 0px;
+      padding:0px 0px 0px 10px;
+      
     }
     nav ul li{
       box-sizing: border-box;
       width: 100%;
-      padding: 15px;
+      padding: 10px;
+      text-align: left;
     }
     .showing{
       max-height: 20em; 
@@ -88,9 +91,7 @@ body {
     .handle{
       display: block;
     }
-    header h1{
-      font-size: 3em;
-    }
+    
   }
   
 
