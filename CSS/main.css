@@ -34,7 +34,7 @@ body {
   nav ul{
     
   
-    text-align: center;
+    text-align: right;
     overflow: hidden;
     -webkit-transition: max-height 0.4s;
     -ms-transition: max-height 0.4s;
@@ -129,7 +129,7 @@ body {
 
   .container {
     
-    display:flex;
+    display:block;
     
     justify-content: center;
 
@@ -172,17 +172,13 @@ body {
     
   }
 
-  .blocka {
-    text-align: left;
-    margin-bottom: 0px;
-    display: block;
-    
-  }
+  
 
   .test {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    
     
     
     
@@ -190,14 +186,48 @@ body {
   }
 
   .testText {
+    border-radius: 1px;
+    background-color:#f6c89f;
     text-align: left;
-    width:60%
+    width:65%;
+    color: #fff;
+      font-family: monospace;
+      font-size: 20px;
+  
+    letter-spacing: 0.5px;
+    padding:20px
+
+  }
+
+  .testTextB {
+    text-align: center;
+    
+    color: #fff;
+      font-family: monospace;
+      font-size: 20px;
+  
+    letter-spacing: 0.5px;
+    
+
+  }
+  
+
+  .testImg {
+    width:35%;
+    text-align: right;
+
+  }
+
+  .testImgL {
+    width:35%;
+    text-align: left;
 
   }
 
   img {
-    width: 150px;
-    height: 150px;
+    width: 60%;
+    height:auto;
+    border-radius: 1em;
 
   }
 
@@ -256,8 +286,38 @@ body {
 
 i {
   
-  padding:25px 25px;
+  /* padding:25px; */
+  margin-right: 35px;
   color:rgb(126, 123, 123)
   
 
+}
+
+/* Zoom In #1 */
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.column div span {
+	position: absolute;
+	
+	z-index: -1;
+	display: block;
+	
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+
+.hoverimg img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hoverimg :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
