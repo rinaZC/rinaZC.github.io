@@ -8,7 +8,7 @@ var _CONTENT = [
   " making pour-over coffee in the morning.",
   " spending hours with my camera until I get the ideal shot.",
   " playing piano, especially music from Bach's French Suite.",
-  " baking banana breads and chocolate chips cookies",
+  " baking banana bread and chocolate chips cookies",
   " traveling to different places and tasting all kinds of food.",
 ];
 
