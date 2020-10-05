@@ -6,10 +6,9 @@ var _CONTENT = [
   " drinking coffee, or Americano to be specific.",
   " running and sweating a lot afterwards.",
   " making pour-over coffee in the morning.",
-  " spending hours with my camera until I get the ideal shot.",
+  " spending hours with my camera to get that ideal shot.",
   " playing piano, especially music from Bach's French Suite.",
   " baking banana bread and chocolate chips cookies.",
-  " learning challenging yoga poses.",
   " traveling to different places and tasting all kinds of food.",
 ];
 
